@@ -1,0 +1,14 @@
+.root {
+  position: relative;
+  overflow-y: auto;
+  width: 100%;
+  min-height: 50px;
+}
+
+.adjust {
+  position: absolute;
+  visibility: hidden;
+  height: 1px;
+  width: 1px;
+  left: 0;
+}
