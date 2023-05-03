@@ -28,6 +28,7 @@
     "storybook": "^7.0.8"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "sass-loader": "^13.2.2"
   }
 }

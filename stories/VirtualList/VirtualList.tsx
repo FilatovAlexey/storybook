@@ -5,8 +5,8 @@ import React, {
   useMemo,
   useRef,
 } from 'react';
-import { throttle } from 'lodash';
 import clsx from 'clsx';
+import { throttle } from 'lodash';
 
 import './virtualList.css';
 import {
