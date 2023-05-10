@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://filatovalexey.github.io/storybook",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "storybook build"
   },
   "keywords": [],
@@ -22,6 +25,7 @@
     "@storybook/react": "^7.0.8",
     "@storybook/react-webpack5": "^7.0.8",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
