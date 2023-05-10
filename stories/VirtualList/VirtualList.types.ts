@@ -36,5 +36,6 @@ export interface VirtualListProps
    * Вызывается просле скролла списка
    */
   onScroll?: (scrollX: number, scrollY: number) => void;
+  
   children: React.ReactNode;
 }
