@@ -38,7 +38,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ secrets.URL }}
+      url: https://filatovalexey.github.io/storybook/
     runs-on: ubuntu-latest
     needs: build
     steps:
