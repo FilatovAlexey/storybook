@@ -46,5 +46,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.TOKEN }}
-          branch: main
-          folder: storybook-static
+          publish_dir: ./storybook-static
